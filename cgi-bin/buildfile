@@ -1,0 +1,9 @@
+cxx.std = latest
+using cxx
+
+hxx{*}: extension = hpp
+cxx{*}: extension = cpp
+
+import libs = cgicc%lib{cgicc}
+./: exe{get.cgi}: cxx{get} $libs
+

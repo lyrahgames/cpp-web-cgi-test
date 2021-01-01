@@ -1,0 +1,46 @@
+html {
+  font-family: Helvetica;
+  font-size: 11pt;
+  line-height: 1.5rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  height: 20vh;
+  padding: 1rem 20vw;
+}
+
+main {
+  margin: 0;
+  padding: 1rem 20vw;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+
+input {
+  display: block;
+  margin: 1rem;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  font-size: smaller;
+  font-weight: bolder;
+  text-align: right;
+  padding: 1rem 20vw;
+  height: 50vh;
+}
