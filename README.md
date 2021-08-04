@@ -6,7 +6,7 @@ This is a test to understand the basics of C++ web programming by using Docker-b
 
 Go into the cloned project folder and run the following command to build the Docker image and start an appropriate container.
 
-    docker-compose build && docker-compose up -d
+    docker-compose up -d --build
 
 Open your browser by using [http://localhost:8080](http://localhost:8080).
 
